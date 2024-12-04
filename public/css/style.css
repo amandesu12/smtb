@@ -1,0 +1,150 @@
+/* Umum */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Warna latar belakang */
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h1 {
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, select, button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.3);
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* List */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+}
+
+li:nth-child(even) {
+    background: #f1f1f1;
+}
+
+/* Error Messages */
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+/* Success Messages */
+.success {
+    color: green;
+    font-size: 16px;
+    text-align: center;
+}
+inde
+/* addtional css */
+
+/* List Item */
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+    position: relative;
+}
+
+/* Nama dan Detail Buah */
+li .details {
+    flex-grow: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* Tombol */
+li .actions {
+    display: flex;
+    gap: 10px; /* Jarak antar tombol */
+}
+
+button, a {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Tombol Hapus */
+button {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+}
+
+/* Tombol Edit */
+a {
+    background-color: #ffc107;
+    color: #000;
+    text-align: center;
+}
+
+a:hover {
+    background-color: #e0a800;
+    transform: scale(1.05);
+}
